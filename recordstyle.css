@@ -1,0 +1,135 @@
+
+/*mainpage*/
+html{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(187, 224, 187);
+}
+/*should effect all pages that have an h1*/
+h1{
+  text-align: center;
+  font-size: 60px;
+}
+
+.record{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.recordpic{
+  height:200px;
+  width:200px;
+  border-radius: 150px;
+}
+
+.mainbody{
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 3%;
+}
+
+.mainparagraph{
+  text-align: center;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.button-row{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left:10%;
+  padding-right: 10%;
+  text-align: center;
+}
+/*one action for multiple buttons*/
+.roster, .merch, .contact{
+  font-size: 20px;
+  padding-bottom: 3%;
+}
+
+.roster-button, .merch-button, .contact-button{
+  border: 3px;
+  background-color: darkgreen;
+  border-radius: 5px;
+  height:30px;
+  width:120px;
+}
+
+.roster-button:hover, 
+.merch-button:hover, 
+.contact-button:hover{
+  background-color: green;
+}
+h2{
+  text-align: center;
+  font-size: 40px;
+}
+table{
+  align-items: center;
+  text-align: center;
+  width:110%;
+}
+
+th{
+  height:27px;
+  border: 3px solid green;
+}
+
+td{
+  height:25px;
+  border-bottom: 2px solid rgb(51, 101, 51);
+}
+
+/*roster page*/
+li{
+  text-align: center;
+  height:40px;
+  font-weight: bold;
+  border-bottom: solid;
+  font-size: 30px;
+}
+
+/*merchandise page*/
+
+.merch-body{
+  text-align: center;
+}
+
+.img1, .img2, .img3{
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 1px rgba(76, 76, 76, 0.5);
+}
+
+.merch-text{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+/*Contact page*/
+.namebox, .lastnamebox{
+  height:20px;
+  margin:10px;
+}
+
+.subjectbox{
+  margin:10px;
+  height:100px;
+  width:80%;
+}
+
+.submit-button{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  height:28px;
+  width:80px;
+  background-color: rgb(34, 190, 34);
+  border-radius: 10px;
+  border:none;
+  margin:10px;
+}
+
+.submit-button:hover{
+  background-color: rgb(93, 168, 93);
+}
+
